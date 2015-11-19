@@ -12,5 +12,5 @@ test:
 
 production:
   <<: *default
-    adapter: pg
-    database: db/production.pg
+  adapter: pg
+  database: db/production.pg
