@@ -9,6 +9,7 @@
   <strong>Content:</strong>
   <%= @blog.content %>
 </p>
+<%= link_to "削除",blog_path(@blog),method: :delete %>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>
